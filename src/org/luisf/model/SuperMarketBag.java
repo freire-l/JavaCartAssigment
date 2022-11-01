@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class SupermarketBag<T> implements Iterable<T>{
+public class SuperMarketBag<T> implements Iterable<T>{
 
     private List<T> products;
     private int max;
 
-    public SupermarketBag(int max) {
+    public SuperMarketBag(int max) {
         this.max = max;
         this.products = new ArrayList<>();
     }
